@@ -6,22 +6,16 @@ const stats = [
       'Expected campaign reach across social posts, community drops, and launch surfaces. Actual reach varies by product and audience.',
   },
   {
-    value: '100+',
+    value: '5k+',
     label: 'Users Acquired',
     description:
       'Targeted installs, signups, waitlist joins, or tester actions depending on your product funnel.',
   },
   {
-    value: '200+',
+    value: '300+',
     label: 'Early Adopters',
     description:
       'A growing tester network of people who like trying new B2C products before they launch.',
-  },
-  {
-    value: '15+',
-    label: 'Channels & Communities',
-    description:
-      'TikTok, Instagram, YouTube, Reddit, Discord, Product Hunt, X/Twitter, niche groups, and more.',
   },
 ];
 
@@ -47,11 +41,11 @@ export function StatsPanel() {
           </p>
         </div>
 
-        <div className="grid overflow-hidden rounded-[2rem] border border-line bg-white/[0.035] shadow-card backdrop-blur md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid overflow-hidden rounded-[2rem] border border-line bg-white/[0.035] shadow-card backdrop-blur md:grid-cols-2 lg:grid-cols-3">
           {stats.map((stat, index) => (
             <div
               key={stat.label}
-              className="group relative min-h-[245px] border-b border-line p-7 transition duration-300 hover:bg-white/[0.045] md:border-r lg:border-b-0"
+              className="group relative min-h-[245px] border-b border-line p-7 transition duration-300 hover:bg-white/[0.045] md:border-r md:last:border-r-0 lg:border-b-0"
             >
               <div className="mb-8 flex items-center justify-between">
                 <span className="font-mono text-xs text-slate-500">
