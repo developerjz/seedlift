@@ -10,18 +10,18 @@ import { WhatYouGet } from '@/components/WhatYouGet';
 import { StatsPanel } from '@/components/StatsPanel';
 
 export default function Home() {
-  return (
-    <main className="min-h-screen overflow-hidden bg-ink text-white">
-      <Nav />
-      <Hero />
-      <SocialProofBar />
-      <WhatYouGet />
-      <HowItWorks />
-      <StatsPanel />
-      <Pricing />
-      <TesterSignup />
-      <FAQ />
-      <Footer />
-    </main>
-  );
+ return (
+  <main className="min-h-screen overflow-hidden bg-ink text-white">
+   <Nav />
+   <Hero />
+   <SocialProofBar />
+   <WhatYouGet />
+   <HowItWorks />
+   <StatsPanel />
+   <Pricing />
+   <TesterSignup />
+   <FAQ />
+   <Footer />
+  </main>
+ );
 }
