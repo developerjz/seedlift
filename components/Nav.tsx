@@ -53,8 +53,8 @@ export function Nav() {
     <SeedliftLogo />
 
     <div className="hidden items-center gap-8 text-sm text-slate-300 md:flex">
-     <a href="#for-startups" className="transition hover:text-white">
-      For Startups
+     <a href="#process" className="transition hover:text-white">
+      Our Process
      </a>
      <a href="#become-a-tester" className="transition hover:text-white">
       Become a Tester
